@@ -11,4 +11,18 @@ public class TestData : ScriptableObject
     public string description;
 
     public int repetitions;
+
+
+    
+    public int level;
+    public int excercise;
+
+    public AppManager.Category category;
+    public AppManager.Path path;
+
+    
+
+
 }
+
+

@@ -41,7 +41,7 @@ public class ViewActive : MonoBehaviour
         GetComponent<UiView>().Hide();
     }
 
-    private void CustomReset()
+    public void CustomReset()
     {
         overallCount = 0f;
         sucessCount = 0f;
